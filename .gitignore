@@ -1,4 +1,5 @@
 .eslintcache
+generated-sources/
 
 target/
 !.mvn/wrapper/maven-wrapper.jar

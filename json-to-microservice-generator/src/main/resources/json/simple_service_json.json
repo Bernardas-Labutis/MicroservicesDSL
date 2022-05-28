@@ -1,0 +1,60 @@
+{
+  "registry": {
+    "port": 9090,
+    "services": [
+      {
+        "name": "authentication-service",
+        "port": 8081,
+        "rest_api": {
+          "path": "/path",
+          "methods": [
+            {
+              "type": "POST",
+              "path": "/path",
+              "name": "name",
+              "request": [
+                {
+                  "request": "a"
+                }
+              ],
+              "response": [
+                {
+                  "response": "b"
+                }
+              ]
+            }
+          ]
+        },
+        "database": {
+          "host": "iu3grwiuethiutheiouthe",
+          "port": 8080,
+          "username": "username",
+          "password": "password",
+          "entities": [
+            {
+              "name": "qweqweqwe",
+              "fields": [
+                {
+                  "type": "String",
+                  "name": "qwrqw"
+                },
+                {
+                  "type": "String",
+                  "name": "qwrqw"
+                }
+              ]
+            }
+          ]
+        },
+        "externalCalls": [
+          {
+            "type": "POST",
+            "url": "http://www.example.com/api/getUsers",
+            "request": {},
+            "response": {}
+          }
+        ]
+      }
+    ]
+  }
+}
