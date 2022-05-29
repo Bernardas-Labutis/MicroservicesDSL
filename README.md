@@ -17,4 +17,4 @@ SUGGESTION: to see if the project is working, you should try to create a configu
 ![Alt text](example_block_configuration.png?raw=true "Title")
 3. To run the generated projects, unzip the downloaded file, run start_projects.bat in the "microservice-architecture" folder.
 4. After the microservice projects starts, you can check if they successfully registered in the service registry by opening url http://localhost:PORT where PORT is the value provided in service registry port block.
-5. navigate to microservice-architecture/test and run run_test.bat to test if microservice layers connected successfully,
+5. navigate to microservice-architecture/test and run run_test.bat to test if microservice layers connected successfully.
