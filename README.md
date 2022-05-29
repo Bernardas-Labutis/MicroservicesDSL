@@ -16,5 +16,6 @@ IMPORTANT: ports 3000, 9099 and 4000 are reserved.
 SUGGESTION: to see if the project is working, you should try to create a configuration mentioned in the thesis:
 ![Alt text](example_block_configuration.png?raw=true "Title")
 3. To run the generated projects, unzip the downloaded file, run start_projects.bat in the "microservice-architecture" folder.
-4. After the microservice projects starts, you can check if they successfully registered in the service registry by opening url http://localhost:PORT where PORT is the value provided in service registry port block.
-5. navigate to microservice-architecture/test and run run_test.bat to test if microservice layers connected successfully.
+NOTE: there is a bug with the mvnw https://issues.apache.org/jira/browse/MWRAPPER-48, so if you getting while running the script, try to move the whole generated project to another location and run the script again.
+5. After the microservice projects starts, you can check if they successfully registered in the service registry by opening url http://localhost:PORT where PORT is the value provided in service registry port block.
+6. navigate to microservice-architecture/test and run run_test.bat to test if microservice layers connected successfully.
