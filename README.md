@@ -14,7 +14,7 @@ Prerequisites:
 1. Combine blockly blocks, click "Generate and download projects" on the bottom left of the page. 
 IMPORTANT: ports 3000, 9099 and 4000 are reserved.
 SUGGESTION: to see if the project is working, you should try to create a configuration mentioned in the thesis:
-![Alt text](img.png?raw=true "Title")
+![Alt text](example_block_configuration.png?raw=true "Title")
 3. To run the generated projects, unzip the downloaded file, run start_projects.bat in the "microservice-architecture" folder.
 4. After the microservice projects starts, you can check if they successfully registered in the service registry by opening url http://localhost:PORT where PORT is the value provided in service registry port block.
 5. navigate to microservice-architecture/test and run run_test.bat to test if microservice layers connected successfully,
